@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -18,15 +13,25 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.submit-btn {
+  border-radius: 1em;
+  margin: 1em;
+  padding: 2em;
+  font-size: .5em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit-btn:hover {
+  cursor: pointer;
+}
+
+.response {
+  min-width: 10em;
+}
+
+.valid {
+  color: chartreuse;
+}
+
+.invalid {
+  color: red;
 }
